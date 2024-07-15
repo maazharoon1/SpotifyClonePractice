@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+<title>Spotify Web-player music for everyone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black ">
+        <div class="left  ">
+            <div class="close">
+                <img src="image/close.svg" alt="close" class="invert">
+            </div>
+            <div class="home rounded bg-grey m-1 p-1">
+                <div class="logo"> <img class="invert" src="image/logo.svg" alt="logo" style="width: 100px;"></div>
+                <ul>
+                    <li class=" white hover pointer"><img class="invert" src="image/home.svg" alt="home">Home</li>
+                    <li class="hover pointer "><img class="invert" src="image/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="libarary  height rounded m-1 bg-grey p-1 flex column gap position top-2">
+                <span><img class="invert img" src="image/library.svg" alt="libarary">Your Library</span>
+
+  <div class="songList ">
+    <ul>
+    
+    </ul>
+  </div>
+
+              
+                <div class="footer ">
+                    <div data-testid="left-sidebar-footer">
+                        <div data-testid="left-sidebar-legal-links">
+                            <div class="ss ">
+                                <div>
+                                    <a href="https://www.spotify.com/pk-en/legal/" id="" data-encore-id="textLink">
+                                        <span data-encore-id="type">Legal</span>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://www.spotify.com/pk-en/safetyandprivacy/" id=""
+                                        data-encore-id="textLink">
+                                        <span data-encore-id="type">Safety &amp; Privacy Center</span>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://www.spotify.com/pk-en/legal/privacy-policy/" id=""
+                                        data-encore-id="textLink">
+                                        <span data-encore-id="type">Privacy Policy</span>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://www.spotify.com/pk-en/legal/cookies-policy/" id=""
+                                        data-encore-id="textLink">
+                                        <span data-encore-id="type">Cookies</span>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://www.spotify.com/pk-en/legal/privacy-policy/#s3" id=""
+                                        data-encore-id="textLink">
+                                        <span data-encore-id="type">About Ads</span>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://www.spotify.com/pk-en/accessibility/" id=""
+                                        data-encore-id="textLink">
+                                        <span data-encore-id="type">Accessibility</span>
+                                    </a>
+                                </div>
+                                <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/"
+                                    target="_blank" rel="noopener">
+                                    <span data-encore-id="text" style="padding: 0px 8px;">Cookies</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div>
+                                <button class=" pointer flex justify-content invert item-center english p-1 m-1"
+                                    data-testid="language-selection-button" data-encore-id="buttonSecondary">
+                                    <span aria-hidden="true">
+                                        <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8.152 16H8a8 8 0 1 1 .152 0zm-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296zM4.877 7.25c.062-1.771.34-3.386.773-4.624.099-.284.208-.554.329-.806a6.507 6.507 0 0 0-4.436 5.43h3.334zm-3.334 1.5a6.507 6.507 0 0 0 4.436 5.43 7.974 7.974 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624H1.543zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129H6.378zm5.048 0c-.061 1.771-.339 3.386-.772 4.624-.082.235-.171.46-.268.674a6.506 6.506 0 0 0 4.071-5.298h-3.03zm3.031-1.5a6.507 6.507 0 0 0-4.071-5.298c.097.214.186.44.268.674.433 1.238.711 2.853.772 4.624h3.031z">
+                                            </path>
+                                        </svg>
+                                    </span>English
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right rounded bg-grey  m-2 ">
+            <div class="header flex space-between p-1 item-center ">
+                <div class="nav ">
+                    
+                    <img src="more.png" alt="more "id="more">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="radi bg-black pointer p-5 ">
+                        <path d="M15 19L8 12L15 5" stroke="grey" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="radi bg-black  pointer p-5">
+                        <path d="M9 5L16 12L9 19" stroke="grey" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+                <div class="buttons">
+                    <button class="sign-up">Sign up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+            <div class="spotify-playlist">
+                <h1>Spotify Playlist</h1>
+                <div class="card-container flex gap wrap scroll scrollbar height-60 shown" id="cardContainer">
+                    <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67706f00000002005ead9495e1af868656863c" alt="">
+                        <h4 class="white fw-450 p-2 fontSize-19">Hot Hits Punjabi</h4>
+                        <p class="p-2">Catch the hottest Punjabi tracks with Shubh </p>
+                        <button class="play-button pointer display"><svg class="pb-svg" data-encore-id="icon" role="img"
+                                aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg></button>
+                    </div>
+                   
+
+                    <div class="card m-189" >
+                        <img src="https://spotify.freewebhostmost.com/songs/ncs/cover.jpg" alt="">
+                        <h4 class="white fw-450 p-2 fontSize-19">Sleep Songs</h4>
+                        <p class="p-2 ">Songs for you</p>
+                        <button class="play-button pointer display"><svg class="pb-svg" data-encore-id="icon" role="img"
+                            aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE">
+                            <path
+                                d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                            </path>
+                        </svg></button>
+                    </div>
+                
+                </div>
+                <div class="playbar ">
+                    
+                    
+                    <div class="songInfo">
+                        Apocalyptic Echoes - Jimena Contreras.
+
+                    </div>
+                    <div class="songTime">
+                        0:00/0:00
+                    </div>
+
+
+
+          <!-- <div class="volume">
+         <div><img src="" alt="" id="volume">
+         </div>
+         <div class="seekbar2">
+         <div class="circle2"></div>
+        </div>
+          </div> -->
+                    
+                    
+                    
+                    <div id="volume-container" class="volume">
+                        <img src="image/volume.svg" alt="">
+                        <!-- <label for="volume-bar">Volume: </label> -->
+                        <input type="range" id="volume-bar" min="0" max="1" step="0.01" value="0.5">
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="songButton flex justify-content gap item-center">
+                  <img src="image/previousbutton.svg" alt="" srcset="" class="pointer" id="previous">  
+                    <img src="image/play.svg" alt="" srcset="" class="pointer" id="play">
+                       <img src="image/nextbutton.svg" alt="" srcset="" class="pointer" id="next"> 
+                    </div>
+                    
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="gpt.js"></script>
+</body>
+
+</html>
